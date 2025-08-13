@@ -26,9 +26,12 @@ export default function RootLayout({ children }) {
         <header>
           <Navbar/>
         </header>
-       <main className="w-10/12 mx-auto">
+       <main className="w-10/12 mx-auto min-h-screen">
          {children}
        </main>
+       <footer>
+        footer
+       </footer>
       </body>
     </html>
   );
