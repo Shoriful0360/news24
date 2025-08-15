@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Bangladesh Launches New Satellite",
+    "description": "Bangladesh has successfully launched its second satellite into orbit. The satellite will improve communication and broadcasting services nationwide. Engineers worked tirelessly to ensure the success of the mission. This project marks a major milestone in the country's space program. The satellite is expected to support weather monitoring and disaster management as well.",
+    "snippet": "Second satellite launched to boost communication.",
+    "url": "https://example.com/news/bangladesh-satellite",
+    "imageUrl": "https://i.postimg.cc/fyYYY3s6/Bangladesh-in-Space-Bangabandhu-2-satellite-An-Earth-Observation-Satellite-Sovereignty-1170x614.webp",
+    "language": "en",
+    "publishedAt": "2025-08-15T09:30:00Z",
+    "source": "Daily Star",
+    "categories": ["Technology", "Bangladesh", "Science"]
+  },
+  {
+    "id": 2,
+    "title": "Dhaka Metro Rail Expands to New Routes",
+    "description": "The government inaugurated two new metro rail routes in Dhaka to ease traffic congestion. Commuters are expected to save significant travel time. Modern trains equipped with advanced safety systems are now operational. The metro project aims to connect key commercial and residential areas. Authorities continue to monitor the efficiency and performance of the new routes.",
+    "snippet": "New metro routes to ease Dhaka traffic.",
+    "url": "https://example.com/news/dhaka-metro",
+    "imageUrl": "https://i.postimg.cc/DyKrncdF/Dhaka-Metro-Rail.jpg",
+    "language": "en",
+    "publishedAt": "2025-08-14T14:00:00Z",
+    "source": "Prothom Alo",
+    "categories": ["Transport", "Bangladesh", "Infrastructure"]
+  },
+  {
+    "id": 3,
+    "title": "Flood Situation Improves in Northern Districts",
+    "description": "Water levels in northern Bangladesh are gradually receding after heavy rains. Thousands of families affected by floods are receiving aid. Emergency services have repaired damaged roads and infrastructure. Local authorities are working with volunteers to ensure safety. The overall situation shows signs of stabilization, bringing relief to the residents.",
+    "snippet": "Flood water recedes in northern areas.",
+    "url": "https://example.com/news/flood-situation",
+    "imageUrl": "https://i.postimg.cc/FsgjRJDS/Flood-Situation-Improves.jpg",
+    "language": "en",
+    "publishedAt": "2025-08-13T08:15:00Z",
+    "source": "BBC Bangla",
+    "categories": ["Weather", "Bangladesh", "Relief"]
+  },
+  {
+    "id": 4,
+    "title": "New IT Park Opens in Chattogram",
+    "description": "A state-of-the-art IT park has been inaugurated in Chattogram to boost the technology sector. Multiple startups have already started operations there. The park provides training and incubation facilities for young entrepreneurs. Local government officials attended the opening ceremony. It is expected to create numerous job opportunities and attract foreign investments.",
+    "snippet": "Chattogram gets new IT park.",
+    "url": "https://example.com/news/ctg-itpark",
+    "imageUrl": "https://i.postimg.cc/4xfphNSS/New-IT-Park-Opens-in-Chattogram.jpg",
+    "language": "en",
+    "publishedAt": "2025-08-12T10:00:00Z",
+    "source": "The Business Standard",
+    "categories": ["Technology", "Bangladesh", "Business"]
+  },
+  {
+    "id": 5,
+    "title": "Bangladesh Wins Cricket Series Against India",
+    "description": "Bangladesh cricket team achieved a historic victory against India in the final match of the series. Fans celebrated across the country after the thrilling win. The players' performance has been praised by cricket experts. This victory marks a significant achievement in Bangladesh cricket history. Team officials promised to maintain high standards for future tournaments.",
+    "snippet": "Tigers beat India in historic win.",
+    "url": "https://example.com/news/bd-india-cricket",
+    "imageUrl": "https://i.postimg.cc/QC7JS4QY/Bangladesh-Wins-Cricket-Series-Against-India.webp",
+    "language": "en",
+    "publishedAt": "2025-08-11T17:30:00Z",
+    "source": "ESPN Cricinfo",
+    "categories": ["Sports", "Cricket", "Bangladesh"]
+  },
+  {
+    "id": 6,
+    "title": "Padma Bridge Registers Record Traffic",
+    "description": "Padma Bridge saw record vehicle crossings during this year's Eid holidays. Authorities monitored traffic to ensure smooth movement. Travelers appreciated the efficiency and safety measures in place. The bridge continues to support economic and social activities across the country. Officials announced plans to maintain and upgrade the bridge regularly.",
+    "snippet": "Padma Bridge sees record crossings.",
+    "url": "https://example.com/news/padma-bridge-traffic",
+    "imageUrl": "https://i.postimg.cc/rsGtKvCT/Padma-Bridges-Impact-on-Tourism.webp",
+    "language": "en",
+    "publishedAt": "2025-08-10T11:00:00Z",
+    "source": "Dhaka Tribune",
+    "categories": ["Transport", "Bangladesh", "Infrastructure"]
+  },
+  {
+    "id": 7,
+    "title": "New Education Policy Announced",
+    "description": "The government has unveiled a new education policy focused on skill-based learning. Schools and colleges are expected to adopt modern teaching methods. The policy aims to prepare students for the global job market. Authorities will provide training for teachers to implement these changes. Experts believe the policy will improve the overall quality of education.",
+    "snippet": "Skill-based education policy launched.",
+    "url": "https://example.com/news/education-policy",
+    "imageUrl": "https://i.postimg.cc/RVRH9xZQ/National-Education-Policy-2025-Whats-New-Structure-Curriculum.png",
+    "language": "en",
+    "publishedAt": "2025-08-09T15:45:00Z",
+    "source": "Prothom Alo",
+    "categories": ["Education", "Bangladesh", "Policy"]
+  },
+  {
+    "id": 8,
+    "title": "Tech Startups Receive $50M Investment",
+    "description": "Bangladeshi tech startups received $50 million in foreign investment this quarter. The funding will support expansion and innovation. Several new products and services are expected to launch soon. Entrepreneurs expressed gratitude for international confidence in the sector. This investment is likely to boost the country's economy and tech ecosystem.",
+    "snippet": "Tech startups get $50M funding.",
+    "url": "https://example.com/news/startup-investment",
+    "imageUrl": "https://i.postimg.cc/1zZhK2D2/Tech-Startups-Receive-50-M-Investment.jpg",
+    "language": "en",
+    "publishedAt": "2025-08-08T09:00:00Z",
+    "source": "The Financial Express",
+    "categories": ["Business", "Technology", "Bangladesh"]
+  },
+  {
+    "id": 9,
+    "title": "Historic Mosque Renovated in Sylhet",
+    "description": "A 300-year-old mosque in Sylhet has been renovated while preserving its original architecture. Restoration work included structural reinforcement and artistic detailing. The local community expressed appreciation for preserving cultural heritage. The mosque is expected to attract tourists and historians. Authorities emphasized the importance of heritage conservation.",
+    "snippet": "300-year-old mosque restored.",
+    "url": "https://example.com/news/sylhet-mosque",
+    "imageUrl": "https://i.imgur.com/r0TkXV7.jpeg",
+    "language": "en",
+    "publishedAt": "2025-08-07T13:20:00Z",
+    "source": "BBC Bangla",
+    "categories": ["Heritage", "Bangladesh", "Culture"]
+  },
+  {
+    "id": 10,
+    "title": "Bangladesh Achieves Record Export Earnings",
+    "description": "Bangladesh recorded its highest export earnings ever this year. The garment and IT sectors contributed significantly. Experts believe the trend will continue if infrastructure improves. Policies are being revised to support exporters and encourage investment. The government celebrated the milestone with industry stakeholders.",
+    "snippet": "Highest export earnings recorded.",
+    "url": "https://example.com/news/export-record",
+    "imageUrl": "https://i.postimg.cc/pLLnLc9N/Exports-of-Bangladesh-set-a-record-of-4-59-billion-in-July-2023.png",
+    "language": "en",
+    "publishedAt": "2025-08-06T12:00:00Z",
+    "source": "Daily Star",
+    "categories": ["Economy", "Bangladesh", "Trade"]
+  }
+]
