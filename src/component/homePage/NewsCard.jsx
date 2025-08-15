@@ -11,9 +11,11 @@ function NewsCard({item}) {
         <div className=" border p-4 space-y-3 flex flex-col rounded-md shadow-md">
 <figure className="relative w-full h-56"> {/* container height সেট করা হচ্ছে */}
   <Image
+  priority
     src={imageUrl}
     alt={title}
     fill
+     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
     className="rounded-md object-cover hover:scale-105 transition-all duration-300"
   />
 </figure>

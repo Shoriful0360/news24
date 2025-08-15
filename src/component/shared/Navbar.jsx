@@ -26,7 +26,7 @@ function Navbar() {
         <NavigationMenu className={'hidden lg:flex'}>
           <NavigationMenuList>
             <NavigationMenuItem className={'flex items-center gap-2'}>
-              <NavigationMenuLink className='hover:text-red-500'>News</NavigationMenuLink>
+              <NavigationMenuLink className='hover:text-red-500' href='/news'>News</NavigationMenuLink>
               <NavigationMenuLink href='/services' className='hover:text-red-500'>
                 <NavigationMenuTrigger className='text-gray-700'> Services </NavigationMenuTrigger>
                 <NavigationMenuContent>
