@@ -1,19 +1,42 @@
+'use client'
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
+ 
 } from "@/components/ui/navigation-menu"
 import { Switch } from "@/components/ui/switch"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { IoMdMenu } from "react-icons/io"
+import { usePathname } from "next/navigation"
+import { useEffect, useState } from "react"
 
 function Navbar() {
+  const pathname=usePathname()
+  const[darkmode,setIsDarkMode]=useState(false)
+
+  // load previous theme from localStorage
+  useEffect(()=>{
+    const saveTheme=localStorage.getItem("theme")
+    if(saveTheme==='dark'){
+      setIsDarkMode(true)
+      document.documentElement.classList.add('dark')
+    }
+  },[])
+  useEffect(()=>{
+    if(darkmode){
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('theme','dark')
+    }else{
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('theme','light')
+    }
+  },[darkmode])
+
   return (
     <header className="py-4 shadow-xl">
       <nav className="flex items-center justify-between w-10/12 mx-auto ">
@@ -26,9 +49,9 @@ function Navbar() {
         <NavigationMenu className={'hidden lg:flex'}>
           <NavigationMenuList>
             <NavigationMenuItem className={'flex items-center gap-2'}>
-              <NavigationMenuLink className='hover:text-red-500' href='/news'>News</NavigationMenuLink>
-              <NavigationMenuLink href='/services' className='hover:text-red-500'>
-                <NavigationMenuTrigger className='text-gray-700'> Services </NavigationMenuTrigger>
+              <NavigationMenuLink href='/news'  className={`${pathname === '/news' ? 'text-red-500 font-bold' : ''} hover:text-red-500`}>News</NavigationMenuLink>
+              <NavigationMenuLink href='/services'   className={`${pathname === '/services' ? 'text-red-500 font-bold' : ''} hover:text-red-500`}>
+                <NavigationMenuTrigger  > Services </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="text-gray-600 shadow-md px-5 py-4 space-y-2">
                     <li>
@@ -50,8 +73,8 @@ function Navbar() {
 
                 </NavigationMenuContent>
               </NavigationMenuLink>
-              <NavigationMenuLink href='/about'>About</NavigationMenuLink>
-              <NavigationMenuLink href='/contact '>Contact</NavigationMenuLink>
+              <NavigationMenuLink href='/about'  className={`${pathname==='/about'?"text-red-500 font-bold":""} hover:text-red-500`}  >About</NavigationMenuLink>
+              <NavigationMenuLink href='/contact ' className={`${pathname==='/contact'?"text-red-500  font-extrabold ":""}hover:text-red-500`} >Contact</NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
@@ -60,8 +83,8 @@ function Navbar() {
         {/* darkmode and login button start*/}
     <div className="hidden lg:flex space-x-2">
         <div className="flex justify-between items-center space-x-2">
-        <span>Dark Mode</span>
-        <Switch />
+        <span >Dark Mode</span>
+        <Switch checked={darkmode} onCheckedChange={setIsDarkMode}/>
       </div>
       <Button variant="default">Button</Button>
     </div>

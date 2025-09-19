@@ -4,7 +4,7 @@ import React from 'react'
 function Newspage() {
   return (
     <div>
-        <h2 className='text-xl font-semibold'>Latest News</h2>
+        <h2 className='text-xl font-bold mt-10 '>Latest News</h2>
        
         <div>
          <NewsList/>

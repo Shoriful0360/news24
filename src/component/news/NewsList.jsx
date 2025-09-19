@@ -15,7 +15,7 @@ function NewsList() {
     const[search,setSearch]=useState("")
     const[category,setCategory]=useState("")
 
-    const categoryNames=["Technology" ,"Transport","Flood","Scenery","Sports","Education","Business"]
+    const categoryNames=["All","Technology" ,"Transport","Flood","Scenery","Sports","Education","Business"]
 useEffect(()=>{
     const getNews=async()=>{
         const data=await fetchNews()
@@ -23,7 +23,7 @@ useEffect(()=>{
     }
     getNews()
 },[category,search])
-console.log(search)
+console.log("hair",category)
   return (
 <div className='mt-6'>
       <h3 className='text-md font-semibold mb-4'>Search News</h3>
@@ -37,7 +37,7 @@ console.log(search)
     {/* category */}
     <div className='flex space-x-2'>
         <h3 className='text-lg font-bold flex-shrink-0'>Category By Filter:</h3>
-        <Select>
+        <Select onValueChange={(value)=>setCategory(value ==="All"?"":value)}>
   <SelectTrigger className="w-[180px]">
     <SelectValue placeholder="Select Category" />
   </SelectTrigger>

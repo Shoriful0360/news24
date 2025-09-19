@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import React from 'react'
 import newImage1 from '@/assets/news1.jpg'
+import Link from 'next/link'
 
 function NewsCard({item}) {
   const{id,title,imageUrl,description}=item || {}
@@ -24,7 +25,7 @@ function NewsCard({item}) {
     <h2 className="font-semibold text-xl flex-1">{title}</h2>
     <p className='flex-1'>{description.substring(0,76)}...</p>
    
-      <Button>Buy Now</Button>
+   <Link href={`/news/${id}`}><Button>Read More</Button></Link>
    
   </div>
 </div>
