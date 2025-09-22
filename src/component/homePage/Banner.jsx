@@ -5,7 +5,7 @@ import bannerImg from "@/assets/newspaper.jpg"
 
 function Banner() {
   return (
-<div className='bg-slate-100 rounded-md mt-10 '>
+<div className='rounded-md mt-10 '>
         <div className='grid xl:grid-cols-2 gap-4   lg:px-10 px-4  py-8 mt-10 '>
         {/* image */}
         <div>

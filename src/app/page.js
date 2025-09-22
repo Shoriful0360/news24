@@ -24,18 +24,17 @@ function useResponsiveCount() {
 }
 
 export default function HomePage() {
+
   const [news, setNews] = useState([]);
   const { visibleCount } = useResponsiveCount();
 
   useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch('/newsJsonfile.json');
-      const json = await res.json();
-      setNews(json);
-    };
-    fetchData();
+    fetch("/api/news")
+      .then((res) => res.json())
+      .then((data) => setNews(data))
+      .catch((err) => console.error(err));
   }, []);
-
+console.log('news',news)
   return (
     <div>
       <Banner />

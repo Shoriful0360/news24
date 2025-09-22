@@ -4,7 +4,7 @@ import React from 'react'
 
 function NewsDetails() {
   const {id}=useParams()
-  console.log(id)
+
   return (
     <div>
          <main className="max-w-4xl mx-auto py-8 px-6 flex flex-col gap-6">

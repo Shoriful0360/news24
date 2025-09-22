@@ -1,7 +1,7 @@
 
 const fetchNews=async(search,category)=>{
     try{
-        const response=await fetch(`/newsJsonfile.json?category=${category}&search=${search}`)
+        const response=await fetch(`/api/news?category=${category}&search=${search}`)
 
         if(!response.ok){
             throw new Error(`HTTP error! status: ${response.status}`)
